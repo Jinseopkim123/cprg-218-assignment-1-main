@@ -1,0 +1,28 @@
+/* lab 3 */
+.videocard {
+    width: 80%; /* Adjust the width of the video card */
+    margin: 50px auto; /* Center the video card horizontally and provide top margin */
+    padding: 20px; /* Add padding to give some space around the video card */
+    background-color: #fff; /* Set background color */
+    border-radius: 0.25rem; /* Add border radius for rounded corners */
+    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%); /* Add box shadow */
+}
+
+.videocard iframe {
+    width: 100%; /* Ensure the video takes full width of its container */
+    height: 315px; /* Set the height of the video */
+    border: none; /* Remove border */
+    border-radius: 0.25rem; /* Add border radius for rounded corners */
+}
+
+.video-card-content {
+    padding: 1rem; /* Add padding for content inside the video card */
+}
+
+.subheader {
+    margin-top: 0; /* Remove top margin for subheader */
+}
+
+.header {
+    margin-top: 0.5rem; /* Add top margin for header */
+}
